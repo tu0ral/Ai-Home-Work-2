@@ -58,7 +58,7 @@ A simple, symmetric, threat-based evaluation:
 Works on arbitrary board sizes.
 
 ---
-
+(Special Thanks To Beloved friend Mr.GPT)
 ### Move Ordering
 All search functions use:
 ```python

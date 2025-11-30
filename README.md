@@ -14,9 +14,9 @@ This project fully satisfies requirements of the "Adversarial Search – Homewor
 
 ---
 
-## 📌 Features
+## Features
 
-### 🎮 Game Engine
+### Game Engine
 Implements the full rule system for arbitrary board sizes:
 - Board size: **m × m**  
 - Win condition: **k-in-a-row**  
@@ -31,7 +31,7 @@ Implements the full rule system for arbitrary board sizes:
 
 ---
 
-### 🧠 Search Algorithms
+###  Search Algorithms
 #### ✔ Minimax  
 Used primarily for verifying correctness on 3×3 boards.
 
@@ -48,7 +48,7 @@ Heuristic prevents blunders, detects threats, wins, and blocks.
 
 ---
 
-### 📈 Heuristic Function
+###  Heuristic Function
 A simple, symmetric, threat-based evaluation:
 
 - +100 for `(k-1)` in a row (winning threat)
@@ -59,7 +59,7 @@ Works on arbitrary board sizes.
 
 ---
 
-### 🔀 Move Ordering
+### Move Ordering
 All search functions use:
 ```python
 sorted(game.actions(state))
